@@ -1,9 +1,9 @@
 openapi: 3.0.0
 info:
-  title: net4Media API
+  title: Blindspot Pull API
   version: 1.0.0
   description: |
-    The net4Media API provides two main endpoints to interact with the service:
+    The Blindspot Pull API provides two main endpoints to interact with the service:
     1. Play - To retrieve media playback information.
     2. Prefetch Media - To retrieve media in advance based on the device ID.
 
