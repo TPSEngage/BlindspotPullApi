@@ -8,7 +8,7 @@ info:
     2. Prefetch Media - To retrieve media in advance based on the device ID.
 
 servers:
-  - url: https://rtb.network.tpsengage.com/api/:apiPublisher
+  - url: https://rtb.network.tpsengage.com/api/{apiPublisher}
     description: Production server
 
 paths:
