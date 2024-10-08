@@ -9,7 +9,10 @@ info:
 
 servers:
   - url: https://rtb.network.tpsengage.com/api/{apiPublisher}
-    description: Production server
+    variables:
+      apiPublisher:
+        default: sv
+        description: The API publisher identifier
 
 paths:
   /play/{deviceId}:
